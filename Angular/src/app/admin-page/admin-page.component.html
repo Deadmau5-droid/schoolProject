@@ -1,0 +1,34 @@
+<div class="container-fluid order-body ">
+  <table class="table table-hover glass ">
+    <thead class="thead-dark">
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>Father's Name</th>
+        <th>Email</th>
+        <th>Course</th>
+        <th>Date Of Birth</th>
+        <th></th>
+      </tr>
+    </thead>
+     <tbody *ngFor="let student of students ; let i = index">
+        <tr >
+            <th scope="row">
+                {{i+1}}
+            </th>
+            <td>{{student.firstName}}</td>
+            <td>{{student.lastName}}</td>
+            <td>{{student.fatherName}}</td>
+            <td>{{student.email}}</td>
+            <td>{{student.course}}</td>
+            <td>{{student.dateOfBirth}}</td>
+             <td><button class="btn btn-outline-dark" (click)="onClickDelete(student.id)" ><i class="fa fa-trash" aria-hidden="true" ></i></button>
+            </td> 
+           
+        </tr>
+  
+    </tbody> 
+  </table>
+</div>
+

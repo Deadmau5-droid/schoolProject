@@ -1,0 +1,25 @@
+$color:linearGradient(to right,green,black);
+  .login-btn{
+  margin-top: 30px;
+  }
+  .glass {
+    background: white;
+    
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.2)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    color:grey;
+  }
+  .btn-outline-dark{
+    border: 1px solid;
+    color:  #007991;
+  }
+  .btn-outline-dark:hover{
+    background-color: #007991;
+    color: white;
+  }

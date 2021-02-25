@@ -1,0 +1,42 @@
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-7">
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="assets/student.jpg"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <a routerLink="/edit-student/{{id}}"><button class="btn btn-outline-dark"><i class="fa fa-pencil fa-1  x" aria-hidden="true">EDIT</i></button></a>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <b>First Name:</b>{{ student.firstName }}
+              </li>
+              <li class="list-group-item">
+                <b>Last Name:</b>{{ student.lastName }}
+              </li>
+              <li class="list-group-item">
+                <b>Username:</b>{{ student.userName }}
+              </li>
+
+              <li class="list-group-item">
+                <b>Father's Name:</b>{{ student.fatherName }}
+              </li>
+
+              <li class="list-group-item"><b>Email:</b>{{ student.email }}</li>
+
+              <li class="list-group-item">
+                <b>Course:</b>{{ student.course }}
+              </li>
+
+              <li class="list-group-item">
+                <b>DOB:</b>{{ student.dateOfBirth }}
+              </li>
+            </ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,76 @@
+<div class="container-fluid">
+    <div class="row justify-content-center bg-light">
+      <div class="col-9">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Create Student</h4>
+          <div class="container-fluid bg-white ">
+            <div class="form-group row ml-5 mr-5 mt-4">
+              <div class="form col-4 mt-5">
+                <input class="bg" type="username" [formControl]="userName" readonly required/>
+                <label for="inputEmail3" class="label-name"><Span class="content-name ">Username</Span></label>
+              </div>
+            </div>
+            <div class="form-group row ml-5 mr-5 mt-4">
+              <div class="form col-4 ">
+                <input class="bg" type="text" [formControl]="email" required/>
+                <label for="inputEmail3" class="label-name"><Span class="content-name ">Email</Span></label>
+              </div>
+            </div>
+            <div class="form-group row ml-5 mr-5">
+              <div class="form col-4 ">
+                <input class="bg" type="text" [formControl]="firstName" required/>
+                <label for="inputEmail3" class="label-name"><Span class="content-name ">First Name</Span></label>
+              </div>
+            </div>
+            <div class="form-group row ml-5 mr-5">
+              <div class="form col-4 ">
+                <input class="bg" type="text" [formControl]="lastName" required/>
+                <label for="inputEmail3" class="label-name"><Span class="content-name ">Last Name</Span></label>
+              </div>
+            </div>
+            <div class="form-group row ml-5 mr-5">
+              <div class="form col-4 ">
+                <input class="bg" type="text" [formControl]="fatherName" required/>
+                <label for="inputEmail3" class="label-name"><Span class="content-name ">Father Name</Span></label>
+              </div>
+            </div>
+            <div class="form-group row ml-5 mr-5">
+                <div class="form col-4 ">
+                  <input class="bg" type="text" [formControl]="Course" required/>
+                  <label for="inputEmail3" class="label-name"><Span class="content-name ">Course</Span></label>
+                </div>
+              </div>
+              <div class="form-group row ml-5 mr-5">
+                <div class="form col-4 ">
+                  <input class="bg" type="text" [formControl]="DOB" placeholder="" required/>
+                  <label for="inputEmail3" class="label-name"><Span class="content-name ">Date Of Birth</Span></label>
+                </div>
+              </div>
+              <div class="form-group row ml-5 mr-5">
+                <div class="form col-4 ">
+                  <input class="bg" type="text" [formControl]="currentPassword" placeholder="" required/>
+                  <label for="inputEmail3" class="label-name"><Span class="content-name">Current Password</Span></label>
+                </div>
+              </div>
+              <div class="form-group row ml-5 mr-5">
+                <div class="form col-4 ">
+                  <input class="bg" type="text" [formControl]="newPassword" placeholder="" required/>
+                  <label for="inputEmail3" class="label-name"><Span class="content-name ">New Password</Span></label>
+                </div>
+              </div>
+              <div class="form-group row ml-5 mr-5">
+                <div class="form col-4 ">
+                  <input class="bg" type="text" [formControl]="confirmPassword" placeholder="" required/>
+                  <label for="inputEmail3" class="label-name"><Span class="content-name">Confirm Password</Span></label>
+                </div>
+              </div>
+            <div class="row justify-content-center"><div class="col-5">
+          <button class="btn btn-outline-dark btn-lg" (click)="Finish()"> Create</button>
+        </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>

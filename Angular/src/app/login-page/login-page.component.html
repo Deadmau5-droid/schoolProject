@@ -1,0 +1,51 @@
+<div>
+  <main>
+    <section class="glass">
+      <div class="mt-5 container-fluid">
+        <div *ngIf="loginstate===1">
+        <div class="row justify-content-center">
+          <div class="mb-5 form col-9">
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <strong>Wrong password/username</strong> .
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="row justify-content-center">
+          <div class="form col-9">
+            <input class="bg" type="text" [formControl]="userName" required />
+            <label for="inputEmail3" class="label-name"
+              ><Span class="content-name">Username</Span></label
+            >
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="form col-9 mt-5">
+            <input
+              class="bg"
+              type="password"
+              [formControl]="password"
+              required
+            />
+            <label for="inputEmail3" class="label-name"
+              ><Span class="content-name">Password</Span></label
+            >
+          </div>
+        </div>
+        <div class="row justify-content-end">
+          <div class="col-3">
+            <button
+              class="btn btn-lg btn-outline-dark login-btn"
+              (click)="onCLickLogin()"
+            >
+              login
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
