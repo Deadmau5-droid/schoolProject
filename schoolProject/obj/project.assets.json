@@ -1521,19 +1521,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usern\\.nuget\\packages\\": {}
+    "C:\\Users\\paul.thomas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usern\\Documents\\Bakerygit\\schoolgit\\schoolProject\\schoolProject\\schoolProject.csproj",
+      "projectUniqueName": "C:\\Users\\paul.thomas\\Documents\\GitHub\\schoolProject\\schoolProject\\schoolProject.csproj",
       "projectName": "schoolProject",
-      "projectPath": "C:\\Users\\usern\\Documents\\Bakerygit\\schoolgit\\schoolProject\\schoolProject\\schoolProject.csproj",
-      "packagesPath": "C:\\Users\\usern\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usern\\Documents\\Bakerygit\\schoolgit\\schoolProject\\schoolProject\\obj\\",
+      "projectPath": "C:\\Users\\paul.thomas\\Documents\\GitHub\\schoolProject\\schoolProject\\schoolProject.csproj",
+      "packagesPath": "C:\\Users\\paul.thomas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paul.thomas\\Documents\\GitHub\\schoolProject\\schoolProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\usern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\paul.thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1547,11 +1547,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\usern\\Documents\\Bakerygit\\schoolgit\\schoolProject\\School.dataService\\School.dataService.csproj": {
-              "projectPath": "C:\\Users\\usern\\Documents\\Bakerygit\\schoolgit\\schoolProject\\School.dataService\\School.dataService.csproj"
+            "C:\\Users\\paul.thomas\\Documents\\GitHub\\schoolProject\\School.dataService\\School.dataService.csproj": {
+              "projectPath": "C:\\Users\\paul.thomas\\Documents\\GitHub\\schoolProject\\School.dataService\\School.dataService.csproj"
             },
-            "C:\\Users\\usern\\Documents\\Bakerygit\\schoolgit\\schoolProject\\School.userService\\School.userService.csproj": {
-              "projectPath": "C:\\Users\\usern\\Documents\\Bakerygit\\schoolgit\\schoolProject\\School.userService\\School.userService.csproj"
+            "C:\\Users\\paul.thomas\\Documents\\GitHub\\schoolProject\\School.userService\\School.userService.csproj": {
+              "projectPath": "C:\\Users\\paul.thomas\\Documents\\GitHub\\schoolProject\\School.userService\\School.userService.csproj"
             }
           }
         }
@@ -1635,7 +1635,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

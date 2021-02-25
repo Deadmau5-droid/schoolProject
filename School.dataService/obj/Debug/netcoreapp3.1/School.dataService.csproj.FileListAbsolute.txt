@@ -10,3 +10,15 @@ C:\Users\usern\source\repos\School.dataService\obj\Debug\netcoreapp3.1\School.da
 C:\Users\usern\source\repos\School.dataService\bin\Debug\netcoreapp3.1\School.dataService.runtimeconfig.json
 C:\Users\usern\source\repos\School.dataService\bin\Debug\netcoreapp3.1\School.dataService.runtimeconfig.dev.json
 C:\Users\usern\source\repos\School.dataService\obj\Debug\netcoreapp3.1\School.dataService.genruntimeconfig.cache
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\obj\Debug\netcoreapp3.1\School.dataService.dll
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\obj\Debug\netcoreapp3.1\School.dataService.pdb
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\bin\Debug\netcoreapp3.1\School.dataService.deps.json
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\bin\Debug\netcoreapp3.1\School.dataService.runtimeconfig.json
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\bin\Debug\netcoreapp3.1\School.dataService.runtimeconfig.dev.json
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\bin\Debug\netcoreapp3.1\School.dataService.dll
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\bin\Debug\netcoreapp3.1\School.dataService.pdb
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\obj\Debug\netcoreapp3.1\School.dataService.csprojAssemblyReference.cache
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\obj\Debug\netcoreapp3.1\School.dataService.AssemblyInfoInputs.cache
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\obj\Debug\netcoreapp3.1\School.dataService.AssemblyInfo.cs
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\obj\Debug\netcoreapp3.1\School.dataService.csproj.CoreCompileInputs.cache
+C:\Users\paul.thomas\Documents\GitHub\schoolProject\School.dataService\obj\Debug\netcoreapp3.1\School.dataService.genruntimeconfig.cache
